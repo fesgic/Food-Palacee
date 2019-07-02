@@ -1,0 +1,78 @@
+<!<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Employeees</title>
+  <style>
+body
+{
+  background-image: url(chocolate.jpg);
+  background-repeat: repeat-x;
+}
+#fieldset
+{
+  border: 2px solid green;
+  border-radius: 25px;
+  height : 13cm;
+  width : 20cm;
+  margin-left: 7.5cm;
+  margin- right : 10cm;
+  margin- top : 15cm;
+  margin-bottom: 20cm;
+  padding-left: 1cm;
+  padding-right: 1cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  background-color: #C0C0C0;
+}
+#surnameid
+{
+  float: right;
+  margin-top: -4.0cm;
+}
+#usernamepassword
+{
+  float:right;
+  margin-top: -0.1cm;
+  margin-right: 7cm;
+}
+#par
+{
+  padding-left: 1.5cm;
+}
+
+  </style>
+
+  </head>
+  <body>
+    <div id="fieldset">
+
+    <form method="POST" action="addemp.php" autocomplete="off" >
+      <label for="first">First Name</label><br><br>
+      <input type="text" name="first" required></input><br><br>
+      <label for="second">Second Name</label><br><br>
+      <input type="text" name="second" required></input><br><br>
+    <div id="surnameid">
+      <label for"surname">Surname</label><br><br>
+      <input type="text" name="surname"></input><br><br>
+      <label for="idno">ID NO</label><br><br>
+      <input type="number" name="idno" required></input><br><br>
+      <label for="doe">Employment Date</label><br><br>
+      <input type="date" name="doe" required></input><br><br>
+    </div>
+      <label for="dob">Date Of Birth</label><br><br>
+      <input type="date" name="dob" required></input><br><br>
+    <div id="usernamepassword"
+      <label for="username">username</label><br><br>
+      <input type="text" name="username" required></input><br><br>
+      <label for="password">Password</label><br><br>
+      <input type="password" name="password" required></input><br><br>
+
+    <div id="par">
+  <p><input type="submit"   value="register" ></p>
+    </div>
+  </div>
+</div>
+    </form>
+  </body>
+</html>

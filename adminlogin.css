@@ -1,0 +1,39 @@
+#border
+{
+  border: solid green;
+  border-radius: 25px;
+  width: 7cm;
+  height: 12cm;
+  margin-left: 12cm;
+  margin-top: 1.5cm;
+  padding-left: 3.5cm;
+  padding-top: 1.0cm;
+  background-color: #C0C0C0;
+}
+#back
+{
+  float:left;
+  margin-left: -2.3cm;
+}
+#login
+{
+  float: right;
+  margin-right: 1.45cm;
+}
+#logback
+{
+  margin-top:2cm;
+}
+body
+{
+  background-image:url(chocolate.jpg);
+}
+#png
+{
+padding-top: -4cm;
+padding-left: 1cm;
+}
+h1
+{
+  color: #2F4F4F;
+}

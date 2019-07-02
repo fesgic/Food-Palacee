@@ -1,0 +1,51 @@
+ul
+{
+  padding: 0px;
+  margin-top:0px;
+}
+ul li
+{
+  display:block;
+  float:right;
+  margin-left: 2cm;
+  font-size: 0.625cm;
+}
+#header
+{
+  padding-top:0cm;
+  margin-top: 0cm;
+}
+body
+{
+  background-image: url(460419_1366_768.jpg);
+  background-size:1360px;
+}
+#options
+{
+  border: 2px lime;
+  border-radius: 25px;
+  width:8cm;
+  height:10cm;
+  margin-left:14cm;
+  margin-right: 8cm;
+  margin-top: 1.5cm;
+  margin-bottom: 5cm;
+  background-color: #FA8072;
+}
+#buttonz
+{
+  margin-left: 3.0cm;
+  padding-top: 2.6cm;
+}
+h1
+{
+  padding-left: 15cm;
+  font-size: 0.7cm;
+  color:#A52A2A;
+}
+fieldset
+{
+  background-image:url(foodtable.jpg);
+  border-color: inherit;
+  border-style: none;
+}
